@@ -49,7 +49,7 @@ const ArticlesForm = ({
               onChangeText={(value) => setValue('email', value)}
             />
           </Item>
-          {errors.email && <Text>{errors.email.message}</Text>}
+          {errors?.email && <Text>{errors?.email.message}</Text>}
 
           <Spacer size={20} />
 
